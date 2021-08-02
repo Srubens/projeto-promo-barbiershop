@@ -38,7 +38,7 @@ const Index = () => {
                         }
                         
                         <Link href="/promocao" > 
-                            <a className="mt-4 btn btn-dourado p-2 col-12 col-md-12" >fazer meu cadastro</a>
+                            <a className="btn-dourado col-12 col-md-12" >fazer meu cadastro</a>
                         </Link>
                         <br/>
                         <br/>
