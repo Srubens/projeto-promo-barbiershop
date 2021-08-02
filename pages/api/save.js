@@ -1,5 +1,6 @@
 import { GoogleSpreadsheet } from 'google-spreadsheet'
 import moment from 'moment'
+import { fromBase64 } from '../../utils/base64'
 
 /**
  * CONECTANDO COM A PLANILHA PEGANDO O ID DELA
@@ -11,13 +12,8 @@ const getCupon = () =>{
     return code.substr(0,4) + '-' + code.substr(4,4) + '-' + code.substr(8,4)
 }
 
-const fromBase64 = value =>{
-    const buff = Buffer.from(value,'base64')
-    return buff.toString('ascii')
-}
-
 export default async(req, res) =>{
-    console.log(JSON.parse(req.body))
+    //console.log(JSON.parse(req.body))
 
     try{
         //LENDO DADOS

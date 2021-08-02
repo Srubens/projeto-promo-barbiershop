@@ -1,20 +1,14 @@
 import { GoogleSpreadsheet } from 'google-spreadsheet'
+import { fromBase64 } from '../../utils/base64'
 
 /**
  * CONECTANDO COM A PLANILHA PEGANDO O ID DELA
  */
 const doc = new GoogleSpreadsheet(process.env.SHEET_DOC_ID)
 
-/**
- * PARA FORMATAR A SENHA EM BASE64
- */
-const fromBase64 = value =>{
-    const buff = Buffer.from(value,'base64')
-    return buff.toString('ascii')
-}
 
 export default async(req, res) =>{
-    console.log(fromBase64(process.env.SHEET_PRIVATE_KEY))
+    //console.log(fromBase64(process.env.SHEET_PRIVATE_KEY))
     try{
         //LENDO DADOS
         // await doc.useServiceAccountAuth(projetoclientes)

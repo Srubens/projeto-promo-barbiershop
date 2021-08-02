@@ -101,7 +101,7 @@ const Promocao = () =>{
                         <div className="mt-4 mb-4">
                             <label className="form-label" htmlFor="name">E-mail</label>
                             <div className="input-group">
-                                <input type="text" name="email" onChange={onChange} value={form.email} className="form-control" placeholder="Informe seu e-mail" autoComplete="off" required="required" />
+                                <input type="email" name="email" onChange={onChange} value={form.email} className="form-control" placeholder="Informe seu e-mail" autoComplete="off" required="required" />
                             </div>
                         </div>
                         <div className="mt-4 mb-4">
