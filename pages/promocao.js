@@ -118,7 +118,7 @@ const Promocao = () =>{
                             </div>
                         </div>
                         <div className="mt-4 mb-4">
-                            <button type="button" onClick={save} className="mt-4 btn btn-dourado col-12 col-md-12" >Cadastrar</button>
+                            <button type="button" onClick={save} className="btn-dourado col-12 col-md-12" >Cadastrar</button>
                         </div>
                     </div>
                     
