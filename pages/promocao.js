@@ -113,7 +113,7 @@ const Promocao = () =>{
                         <div className="mt-4 mb-4">
                             <label className="form-label" htmlFor="mdata">Data:</label>
                             <div className="input-group">
-                                <input id="mdata" type="date" name="mdata" min="2021-08-02" max="2021-08-06" onChange={onChange} value={form.mdata} className="form-control" autoComplete="off" required="required" />
+                                <input id="mdata" type="date" name="mdata" min="2021-08-08" max="2021-08-12" onChange={onChange} value={form.mdata} className="form-control" autoComplete="off" required="required" />
                                 <br/>
                             </div>
                         </div>

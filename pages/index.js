@@ -26,15 +26,19 @@ const Index = () => {
                             </h3>
                         }
                         { data && data.showCupon &&
-                            <h3>
-                                A barbearia X está com uma grande promoção neste dias dos pais.
-                                <br/>
-                                <br/>
-                                Ao se cadastrar você ganha 15% no seu próximo corte.
-                                <br/>
-                                <br/>
-                                Promoção valida dos dias 02 aos dias 06 de Agosto.
-                            </h3>
+                            <div> 
+                                <h3>
+                                    O Setor 14 está com uma grande promoção do dia 08 
+                                    até o dia 12 para você Pai.
+                                    <br/>
+                                    <br/>
+                                    Ao se cadastrar você seu corte sai por apenas R$15,00.
+                                    <br/>
+                                    <br/>
+                                    Não perca esta promoção.<br/>
+                                    Promoção validá apenas para os pais.
+                                </h3>
+                            </div>
                         }
                         
                         <Link href="/promocao" > 
